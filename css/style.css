@@ -142,3 +142,11 @@ nav ul li
     color: var(--title-col);
     font-weight: 600;
 }
+
+/* question-part */
+
+#question-part .qus
+{
+    width: 75%;
+    margin: 0 auto;
+}
