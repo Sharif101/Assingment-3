@@ -113,3 +113,32 @@ nav ul li
     color: var(--text-col);
     font-weight: 400;
 }
+
+
+/* institue part  */
+#institue-part .institue{
+    background-color: #F4FAFD;
+}
+
+#institue-part .institue h3
+{
+    font-family: var(--font-family);
+    font-size: 35px;
+    color: var(--title-col);
+    font-weight: 600;
+}
+
+#institue-part .institue p
+{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--text-col);
+    font-weight: 400;
+}
+#institue-part .institue ul li h6
+{
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: var(--title-col);
+    font-weight: 600;
+}
