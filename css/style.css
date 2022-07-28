@@ -26,7 +26,7 @@ body,html{
 :root
 {
     --btn-col: #289BDE;
-    --text-col: #F4F4F4;
+    --text-col: #777777;
     --title-col: #1D1D1D;
     --font-family:'Poppins', sans-serif;
 }
@@ -41,6 +41,20 @@ body,html{
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 600;
+}
+.title h3
+{
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--title-col);
+}
+.title p
+{
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-col);
 }
 
 /* navbar  */
@@ -76,6 +90,23 @@ nav ul li
 }
 
 .carousel-item  .overlay p
+{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #F4F4F4;
+    font-weight: 400;
+}
+
+
+/* propural courses */
+#propural-courses .text h5
+{
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: var(--title-col);
+    font-weight: 600;
+}
+#propural-courses .text p
 {
     font-family: var(--font-family);
     font-size: 14px;
