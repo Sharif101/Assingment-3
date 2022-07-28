@@ -254,7 +254,7 @@ footer .icon a
     }
 }
 
-@media screen and (min-width:578px) and (max-width:768px){
+@media screen and (min-width:578px) and (max-width:767px){
 
     nav ul li,  nav .button{
         text-align: center;
@@ -299,7 +299,7 @@ footer .icon a
     }
 }
 
-@media screen and (min-width:769px) and (max-width:992px){
+@media screen and (min-width:768px) and (max-width:992px){
 
     nav ul li,  nav .button{
         text-align: center;
@@ -322,6 +322,16 @@ footer .icon a
 
     #institue-part .institue h3 {
         width: 100%;
+    }
+    #institue-part .institue h3 {
+        font-size: 30px;
+    }
+    #institue-part .institue p {
+        font-size: 12px;
+    }
+    #pra-2
+    {
+        display: none;
     }
     
     #register-part .register

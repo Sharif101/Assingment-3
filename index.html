@@ -19,7 +19,7 @@
         <!-- navbar part -->
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand fw-bold" href="#">Pro Edu</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -196,7 +196,7 @@
                   <div class="text p-4">
                     <h3>Explore The elearning Institute</h3>
                     <p class="py-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
-                    <p class="py-3">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                    <p class="py-3" id="pra-2">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
                     <ul class="d-flex justify-content-between py-3 flex-sm-wrap">
                       <li>
                         <h6>3.2k +</h6>
@@ -229,9 +229,31 @@
                 <h2 class="fw-bold">Ready to join?</h2>
                 <p class="py-3">It is a long established fact that a reader will be distracted </p>
               </div>
-              <div class="button">
-                <button type="button" class="custom-btn2">See More Courses</button>
-              </div>
+
+
+              <!-- Button trigger modal -->
+              <button type="button" class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                See More Courses
+              </button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <!-- Modal -->
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title text-dark" id="exampleModalLabel">Register</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body text-dark">
+                       Yaaa whoo! u click this button
+                     </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-primary">Save changes</button>
+                     </div>
+                   </div>
+                 </div>
+               </div>
             </div>
           </div>
         </section>
