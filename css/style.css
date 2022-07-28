@@ -53,6 +53,10 @@ body,html{
     font-size: 16px;
     font-weight: 600;
 }
+.title
+{
+    width: 50%;
+}
 .title h3
 {
     font-family: var(--font-family);
@@ -78,6 +82,10 @@ nav ul li
     font-weight: 400;
 }
 
+#banner-part .overlay .text
+{
+    width: 50%;
+}
 .carousel-item img
 {
     position: relative;
@@ -132,7 +140,8 @@ nav ul li
 }
 
 #institue-part .institue h3
-{
+{   
+    width: 80%;
     font-family: var(--font-family);
     font-size: 35px;
     color: var(--title-col);
@@ -197,4 +206,27 @@ footer .icon a
     line-height: 45px;
     background-color: #242424;
     color: white;
+}
+
+
+@media screen and (max-width:576px) {
+
+    nav ul li,  nav .button{
+        text-align: center;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+
+    #banner-part .overlay .text {
+        width: 70%;
+    }
+    .carousel-item .overlay h1 {
+        font-size: 25px;
+    }
+    .carousel-item .overlay p {
+        font-size: 10px;
+    }
 }
