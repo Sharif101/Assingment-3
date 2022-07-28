@@ -229,4 +229,23 @@ footer .icon a
     .carousel-item .overlay p {
         font-size: 10px;
     }
+
+    #institue-part .institue h3 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    #register-part .register
+    {
+        text-align: center;
+    }
+
+    #question-part .qus {
+        width: 100%;
+    }
+
+    #company-part
+    {
+        display: none;
+    }
 }
