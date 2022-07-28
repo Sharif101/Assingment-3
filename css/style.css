@@ -239,11 +239,98 @@ footer .icon a
     {
         text-align: center;
     }
+    
+    #students-part .text{
+        text-align: center;
+    }
 
     #question-part .qus {
         width: 100%;
     }
 
+    #company-part
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width:578px) and (max-width:768px){
+
+    nav ul li,  nav .button{
+        text-align: center;
+    }
+    .title {
+        width: 100%;
+    }
+
+    #banner-part .overlay .text {
+        width: 70%;
+    }
+
+    
+    .carousel-item .overlay h1 {
+        font-size: 28px;
+    }
+    .carousel-item .overlay p {
+        font-size: 14px;
+    }
+
+    #institue-part .institue h3 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    #register-part .register
+    {
+        text-align: center;
+    }
+    
+    #students-part .text{
+        text-align: center;
+    }
+
+    #question-part .qus {
+        width: 100%;
+    }
+
+    #company-part
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+    nav ul li,  nav .button{
+        text-align: center;
+    }
+    .title {
+        width: 100%;
+    }
+
+    #banner-part .overlay .text {
+        width: 70%;
+    }
+
+    
+    .carousel-item .overlay h1 {
+        font-size: 28px;
+    }
+    .carousel-item .overlay p {
+        font-size: 14px;
+    }
+
+    #institue-part .institue h3 {
+        width: 100%;
+    }
+    
+    #register-part .register
+    {
+        text-align: center;
+    }
+    #question-part .qus {
+        width: 100%;
+    }
     #company-part
     {
         display: none;
