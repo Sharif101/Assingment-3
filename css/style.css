@@ -114,6 +114,7 @@ nav ul li
     font-size: 14px;
     color: #F4F4F4;
     font-weight: 400;
+    padding: 20px 0;
 }
 
 
@@ -224,10 +225,11 @@ footer .icon a
         width: 70%;
     }
     .carousel-item .overlay h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .carousel-item .overlay p {
-        font-size: 10px;
+        font-size: 9px;
+        padding: 0;
     }
 
     #institue-part .institue h3 {
@@ -269,10 +271,11 @@ footer .icon a
 
     
     .carousel-item .overlay h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
     .carousel-item .overlay p {
-        font-size: 14px;
+        font-size: 12px;
+        padding: 10px 0;
     }
 
     #institue-part .institue h3 {
